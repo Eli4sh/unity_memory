@@ -1,0 +1,1 @@
+namespace Memory.Logic{    public static partial class Game    {        public static void SetLevelDuration(int value)        {            Core.Database.SetDatabaseInt(key: Database.DatabaseKeys.LevelDurationDatabaseKey, value);            LevelDurationSet?.Invoke(value);        }    }}

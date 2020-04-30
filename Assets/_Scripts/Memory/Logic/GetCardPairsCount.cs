@@ -1,0 +1,1 @@
+namespace Memory.Logic{    public static partial class Game    {        public static int GetCardPairsCount()        {            return Core.Database.GetDatabaseInt(key: Database.DatabaseKeys.CardPairsDatabaseKey) ?? -1;        }    }}

@@ -1,0 +1,1 @@
+namespace Memory.Logic{    public static partial class Game    {        public static void SetGameStarted()        {            Core.Database.SetDatabaseBool(key: Database.DatabaseKeys.GameStartedDatabaseKey, true);            GameStarted?.Invoke();        }    }}
