@@ -1,0 +1,1 @@
+$HEADER$namespace $NAMESPACE$ {  public class $CLASS$ : UnityEngine.MonoBehaviour   #region UNITY_API  {$END$}  #endregion}

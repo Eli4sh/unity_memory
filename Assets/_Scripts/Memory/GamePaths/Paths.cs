@@ -1,0 +1,1 @@
+namespace Memory.GamePaths{    public static class Paths    {        public const string VisualSettingsPath = "Memory/Settings/Visual Settings";        public const string GameplaySettingsPath = "Memory/Settings/Gameplay Settings";        public const string MemoryCardPrefabPath = "Memory/Prefabs/MemoryCard";    }}
