@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8138e93456f444274a68d46674306cca, type: 3}
+  m_Name: Visual Settings
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 6b2a265f01726c64e81ba42b58374917, type: 3}
+  CardFrame: {fileID: 21300000, guid: 5f6872da585ce4722a501399224837f2, type: 3}
+  Animals:
+  - {fileID: 21300000, guid: 7e75d2d8ed1f547ba8a2a66b4e22717f, type: 3}
+  - {fileID: 21300000, guid: 41606d22f66464f378c7d01adccd84d0, type: 3}
+  - {fileID: 21300000, guid: afb0296f1662648e68b508c797451dc4, type: 3}
+  - {fileID: 21300000, guid: f3ff4d59f5eba4e50a0e57c7857665ee, type: 3}
+  - {fileID: 21300000, guid: 2319e250bd77446e5b5ae3964dd0a198, type: 3}
+  - {fileID: 21300000, guid: ac22211dddb0a40e6971f0fdab4c1983, type: 3}
