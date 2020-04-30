@@ -1,1 +1,1 @@
-$HEADER$namespace $NAMESPACE${  public class $CLASS$ {$END$}}
+using UnityEngine;namespace Memory.Structs{    public struct SlotDetails    {        public Vector3 Position;        public Vector3 Scale;        public SlotDetails(Vector3 pos, Vector3 scale)        {            Position = pos;            Scale = scale;        }    }}
