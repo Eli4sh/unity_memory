@@ -10,6 +10,7 @@ namespace Memory.Logic
         public static event Action<int> CardSelected;
         public static event Action<int> PairMatched;
         public static event Action<int, int> ResetCards;
+        public static event Action HideAllCards;
         public static event Action<int> LevelDurationSet;
         public static event Action<int> TimeLeftChanged;
     }

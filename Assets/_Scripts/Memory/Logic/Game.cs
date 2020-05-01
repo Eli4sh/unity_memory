@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.Assertions;
+﻿using System.Threading.Tasks;
+using UnityEngine;
 using Core;
 using Memory.GamePaths;
 using Memory.Settings;
@@ -28,8 +28,13 @@ namespace Memory.Logic
             SetCardPairsCount(_gameplaySettings.MemoryPairs);
         }
 
-        public static void Start()
+        public static async void Start()
         {
+            await Task.Delay(1000);
+            HideAllCards?.Invoke();
+            await Task.Delay(1000);
+            GameStarted?.Invoke();
+            SetGameStarted();
         }
 
         public static void Update()
