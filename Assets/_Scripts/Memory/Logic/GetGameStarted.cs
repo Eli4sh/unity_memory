@@ -1,1 +1,1 @@
-namespace Memory.Logic{    public static partial class Game    {        public static bool GetGameStarted()        {            return Core.Database.GetDatabaseBool(key: Database.DatabaseKeys.GameStartedDatabaseKey) ?? false;        }    }}
+using Memory.Database;namespace Memory.Logic{    public static partial class Game    {        private static bool GetGameStarted()        {            return Core.Database.GetDatabaseBool(key: DatabaseKeys.GameStartedDatabaseKey) ?? false;        }    }}

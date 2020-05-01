@@ -9,10 +9,7 @@ namespace Core
         {
             int? intValue = GetDatabaseInt(key: key);
 
-            if (!intValue.HasValue)
-            {
-                return null;
-            }
+            if (!intValue.HasValue) return null;
 
             return intValue.Value == 1;
         }

@@ -1,32 +1,32 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using Memory.Logic;
 using Memory.Structs;
+using UnityEngine;
 
 namespace Memory.MonoBehaviours
 {
     public class Grid : MonoBehaviour
     {
-        [SerializeField]
-        private int rows;
+        public Sprite _frameSprite;
+        private Vector2 cellScale;
+
+        private Vector2 cellSize;
 
         [SerializeField]
         private int cols;
 
         [SerializeField]
+        private Vector2 gridOffset;
+
+        [SerializeField]
         private Vector2 gridSize;
 
         [SerializeField]
-        private Vector2 gridOffset;
+        private int rows;
 
-        private Vector2 cellSize;
-        private Vector2 cellScale;
-        public Sprite _frameSprite;
-
-        void Awake()
+        private void Awake()
         {
             float targetaspect = 1.3333f;
-            float windowaspect = (float) Screen.height / (float) Screen.width;
+            float windowaspect = Screen.height / (float) Screen.width;
             float scaleSize = windowaspect / targetaspect;
             gridSize *= scaleSize;
         }
@@ -37,7 +37,7 @@ namespace Memory.MonoBehaviours
             cols = rowsColumns.y;
             cellSize = _frameSprite.bounds.size;
 
-            Vector2 newCellSize = new Vector2(gridSize.x / (float) cols, gridSize.y / (float) rows);
+            Vector2 newCellSize = new Vector2(x: gridSize.x / cols, y: gridSize.y / rows);
 
             cellScale.x = newCellSize.x / cellSize.x;
             cellScale.y = newCellSize.y / cellSize.y;
@@ -53,15 +53,15 @@ namespace Memory.MonoBehaviours
             {
                 for (int col = 0; col < cols; col++)
                 {
-                    Vector2 pos = new Vector2(col * cellSize.x + gridOffset.x + transform.position.x,
-                        row * cellSize.y + gridOffset.y + transform.position
-                                                                   .y);
-                    Logic.Game.RegisterMemorySlot(new SlotDetails(index, pos, cellScale));
+                    Vector2 pos = new Vector2(x: col * cellSize.x + gridOffset.x + transform.position.x,
+                        y: row * cellSize.y + gridOffset.y + transform.position
+                                                                      .y);
+                    Game.RegisterMemorySlot(details: new SlotDetails(index: index, pos: pos, scale: cellScale));
                     index++;
                 }
             }
 
-            Logic.Game.OnGridInitialized();
+            Game.OnGridInitialized();
         }
     }
 }

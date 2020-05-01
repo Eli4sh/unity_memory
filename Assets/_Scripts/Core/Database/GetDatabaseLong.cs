@@ -9,19 +9,14 @@ namespace Core
         {
             string strValue = GetDatabaseString(key: key);
 
-            if (strValue == null)
-            {
-                return null;
-            }
+            if (strValue == null) return null;
 
             long value;
 
             if (long.TryParse(
                 s: strValue,
                 result: out value))
-            {
                 return value;
-            }
 
             return null;
         }

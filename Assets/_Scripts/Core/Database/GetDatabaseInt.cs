@@ -8,10 +8,7 @@ namespace Core
         public static int? GetDatabaseInt(
             [NotNull] string key)
         {
-            if (!PlayerPrefs.HasKey(key: key))
-            {
-                return null;
-            }
+            if (!PlayerPrefs.HasKey(key: key)) return null;
 
             return PlayerPrefs.GetInt(key: key);
         }

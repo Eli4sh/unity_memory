@@ -1,0 +1,1 @@
+using System;using Memory.Database;namespace Memory.Logic{    public static partial class Game    {        private static DateTime GetGameStartedTime()        {            return Core.Database.GetDatabaseDateTime(key: DatabaseKeys.GameStartedTimeDatabaseKey) ?? DateTime.Now;        }    }}

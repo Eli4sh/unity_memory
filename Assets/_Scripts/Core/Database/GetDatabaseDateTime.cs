@@ -10,10 +10,7 @@ namespace Core
         {
             long? longValue = GetDatabaseLong(key: key);
 
-            if (!longValue.HasValue)
-            {
-                return null;
-            }
+            if (!longValue.HasValue) return null;
 
             return new DateTime(ticks: longValue.Value);
         }

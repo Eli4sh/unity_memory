@@ -1,0 +1,1 @@
+using Memory.Database;namespace Memory.Logic{    public static partial class Game    {        private static int GetMatchedPairs()        {            return Core.Database.GetDatabaseInt(key: DatabaseKeys.PairsMatchedDatabaseKey) ?? 0;        }    }}
