@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Core.Management;
+﻿using Core.Management;
 using Memory.Structs;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,7 +16,7 @@ namespace Menu.UserInterface
 
         private void Awake()
         {
-            _playButton.onClick.AddListener(OnPlayButtonClicked);
+            _playButton.onClick.AddListener(call: OnPlayButtonClicked);
         }
 
         private void Start()
@@ -38,12 +36,12 @@ namespace Menu.UserInterface
 
         private void OnMemoryResultFound(MemoryGameResult result)
         {
-            _lastGameResult.SetResult(result);
+            _lastGameResult.SetResult(result: result);
         }
 
         private void OnPlayButtonClicked()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(sceneBuildIndex: 1);
         }
     }
 }

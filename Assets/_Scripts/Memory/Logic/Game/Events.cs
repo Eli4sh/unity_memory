@@ -11,7 +11,6 @@ namespace Memory.Logic
         public static event Action<int, int> ProgressChanged;
         public static event Action<int, int> ResetCards;
         public static event Action HideAllCards;
-        public static event Action<TimeSpan> LevelDurationSet;
         public static event Action<TimeSpan> TimeLeftChanged;
     }
 }

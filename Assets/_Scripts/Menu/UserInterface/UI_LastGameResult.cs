@@ -1,21 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Memory.Structs;
-using UnityEngine;
+﻿using Memory.Structs;
 using TMPro;
+using UnityEngine;
 
 namespace Menu.UserInterface
 {
     public class UI_LastGameResult : MonoBehaviour
     {
         [SerializeField]
+        private TMP_Text _durationText;
+
+        [SerializeField]
         private TMP_Text _gameTypeText;
 
         [SerializeField]
         private TMP_Text _levelText;
-
-        [SerializeField]
-        private TMP_Text _durationText;
 
         [SerializeField]
         private TMP_Text _percentageText;

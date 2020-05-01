@@ -33,6 +33,8 @@ namespace Memory.Logic
 
         public static async void Start()
         {
+            SetGameStartedTime(value: DateTime.Now);
+            TimeLeftChanged?.Invoke(obj: GetTimeLeft());
             ProgressChanged?.Invoke(arg1: 0, arg2: GetCardPairsCount());
             await Task.Delay(millisecondsDelay: 1000);
             HideAllCards?.Invoke();

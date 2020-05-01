@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Scripts" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d15bd412-d2bb-46d6-9aef-54bbb345b5ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/_Media/Sprites/pixelArtBackgrounds/Backgrounds/desert.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Memory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Memory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/SetMemoryResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/SetMemoryResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Events.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Events.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetLevelDuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetLevelDuration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UserInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Utilities/GetRandomNumberInRange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/SetGameTypeProgress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/SetDatabaseDateTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetLevelDuration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetGameStartedTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/GetLastGameResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseDateTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/SetMemoryResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/SetDatabaseLong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Structs/MemoryGameResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetGameStartedTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseLong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Database/DatabaseKeys.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseBool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetLevelDuration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/GameType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Events.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/SetDatabaseString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetGameStarted.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/SetDatabaseBool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UserInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetGameStarted.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/OnGridInitialized.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/RegisterMemorySlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseString.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/GetMemoryResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetCardPairsCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/OnCardSelected.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Settings/GameplaySettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/SetDatabaseVector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/SetDatabaseInt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/GamePaths/Paths.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetCardSlotScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Settings/VisualSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Menu/UserInterface/UI_Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetCardPairsCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetCardSlotScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/DatabaseKeys.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Menu/UserInterface/UI_LastGameResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetCardSlotPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseVector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/CreateCards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Structs/SlotDetails.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/CheckWinCondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/GameBootstrap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetCardSlotPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/Events.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetCurrentlySelectedPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Result/PrepareGameResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Management/GetGameTypeProgress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/MemoryCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetMatchedPairs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UI_TopBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetCurrentlySelectedPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetTimeLeft.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../yt-clicker/Assets/Scripts/Factory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetMatchedPairs.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Utilities/GetRandomNumberInRange.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetCardIndex.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/MemoryCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetMatchedPairs.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/CheckWinCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetMatchedPairs.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetCardSlotPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetCardSlotScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetCurrentlySelectedPair.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetCardPairsCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetCardSlotPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetCardSlotScale.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetCurrentlySelectedPair.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/CreateCards.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetCardPairsCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Events.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI_TopBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UserInterface/UserInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetGameStarted.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/GameBootstrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Database/DatabaseKeys.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetGameStartedDatabaseKey.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetLevelDuration.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UserInterface/UI_TopBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetGameStarted.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/SetGameStartedTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/GetGameStartedTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/GameTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/SetGameTypeProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Structs/MemoryGameResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/GetLastGameResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/DatabaseKeys.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/GetMemoryResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/GetTimeLeft.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/OnCardSelected.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/CheckWinCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Events.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/GetLastGameResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/GetGameTypeProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Result/PrepareGameResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI_Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI_LastGameResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Database/GetDatabaseString.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/Results/SetMemoryResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/SetLevelDuration.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Events.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UserInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/CrystalFramework/Utility/SafeArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Game.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Scripts" pattern="file[riderModule]:Assets/_Scripts//*" />
+  </component>
+  <component name="ProjectId" id="1bFqjiabqCZX9ieTl8BmHPKcBar" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d15bd412-d2bb-46d6-9aef-54bbb345b5ad" name="Default Changelist" comment="" />
+      <created>1588238326927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588238326927</updated>
+      <workItem from="1588238334494" duration="15179000" />
+      <workItem from="1588319952626" duration="669000" />
+      <workItem from="1588320720559" duration="14900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="842" y="35" width="827" height="1005" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588320619680">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="842" y="35" width="827" height="1005" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588320619680" />
+    <state x="842" y="35" width="827" height="1005" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1588331669106">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="842" y="35" width="827" height="1005" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588331669106" />
+    <state x="842" y="540" width="827" height="500" key="scopes" timestamp="1588327812918">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="842" y="540" width="827" height="500" key="scopes/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588327812918" />
+    <state x="503" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1588330193255">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="255" width="672" height="678" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1588330193255" />
+  </component>
+</project>

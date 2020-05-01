@@ -1,5 +1,4 @@
-﻿
-public enum GameType
+﻿public enum GameType
 {
     MEMORY
 }

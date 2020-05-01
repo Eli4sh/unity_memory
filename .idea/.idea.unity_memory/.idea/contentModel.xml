@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_unity_memory.-317737847.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="Database" t="Include">
+              <e p="GetDatabaseBool.cs" t="Include" />
+              <e p="GetDatabaseDateTime.cs" t="Include" />
+              <e p="GetDatabaseInt.cs" t="Include" />
+              <e p="GetDatabaseLong.cs" t="Include" />
+              <e p="GetDatabaseString.cs" t="Include" />
+              <e p="GetDatabaseVector3.cs" t="Include" />
+              <e p="SetDatabaseBool.cs" t="Include" />
+              <e p="SetDatabaseDateTime.cs" t="Include" />
+              <e p="SetDatabaseInt.cs" t="Include" />
+              <e p="SetDatabaseLong.cs" t="Include" />
+              <e p="SetDatabaseString.cs" t="Include" />
+              <e p="SetDatabaseVector3.cs" t="Include" />
+            </e>
+            <e p="Management" t="Include">
+              <e p="DatabaseKeys.cs" t="Include" />
+              <e p="Events.cs" t="Include" />
+              <e p="GameType.cs" t="Include" />
+              <e p="GetGameTypeProgress.cs" t="Include" />
+              <e p="Main.cs" t="Include" />
+              <e p="Results" t="Include">
+                <e p="GetLastGameResult.cs" t="Include" />
+                <e p="GetMemoryResult.cs" t="Include" />
+                <e p="SetMemoryResult.cs" t="Include" />
+              </e>
+              <e p="SetGameTypeProgress.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="CameraSizeAspectRatioFitter.cs" t="Include" />
+              <e p="Factory.cs" t="Include" />
+              <e p="GetRandomNumberInRange.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Memory" t="Include">
+            <e p="Database" t="Include">
+              <e p="DatabaseKeys.cs" t="Include" />
+            </e>
+            <e p="GamePaths" t="Include">
+              <e p="Paths.cs" t="Include" />
+            </e>
+            <e p="Logic" t="Include">
+              <e p="Cards" t="Include">
+                <e p="CreateCards.cs" t="Include" />
+                <e p="OnCardSelected.cs" t="Include" />
+                <e p="RegisterMemorySlot.cs" t="Include" />
+              </e>
+              <e p="Game" t="Include">
+                <e p="CheckWinCondition.cs" t="Include" />
+                <e p="Events.cs" t="Include" />
+                <e p="Game.cs" t="Include" />
+                <e p="GetCardPairsCount.cs" t="Include" />
+                <e p="GetCardSlotPosition.cs" t="Include" />
+                <e p="GetCardSlotScale.cs" t="Include" />
+                <e p="GetCurrentlySelectedPair.cs" t="Include" />
+                <e p="GetGameStarted.cs" t="Include" />
+                <e p="GetGameStartedTime.cs" t="Include" />
+                <e p="GetLevelDuration.cs" t="Include" />
+                <e p="GetMatchedPairs.cs" t="Include" />
+                <e p="GetTimeLeft.cs" t="Include" />
+                <e p="OnGridInitialized.cs" t="Include" />
+                <e p="SetCardPairsCount.cs" t="Include" />
+                <e p="SetCardSlotPosition.cs" t="Include" />
+                <e p="SetCardSlotScale.cs" t="Include" />
+                <e p="SetCurrentlySelectedPair.cs" t="Include" />
+                <e p="SetGameStarted.cs" t="Include" />
+                <e p="SetGameStartedTime.cs" t="Include" />
+                <e p="SetLevelDuration.cs" t="Include" />
+                <e p="SetMatchedPairs.cs" t="Include" />
+              </e>
+              <e p="Result" t="Include">
+                <e p="PrepareGameResult.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MonoBehaviours" t="Include">
+              <e p="GameBootstrap.cs" t="Include" />
+              <e p="Grid.cs" t="Include" />
+              <e p="MemoryCard.cs" t="Include" />
+            </e>
+            <e p="Settings" t="Include">
+              <e p="GameplaySettings.cs" t="Include" />
+              <e p="VisualSettings.cs" t="Include" />
+            </e>
+            <e p="Structs" t="Include">
+              <e p="MemoryGameResult.cs" t="Include" />
+              <e p="SlotDetails.cs" t="Include" />
+            </e>
+            <e p="UserInterface" t="Include">
+              <e p="UI_TopBar.cs" t="Include" />
+              <e p="UserInterface.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Menu" t="Include">
+            <e p="UserInterface" t="Include">
+              <e p="UI_LastGameResult.cs" t="Include" />
+              <e p="UI_Menu.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="unity_memory.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
