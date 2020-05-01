@@ -25,10 +25,10 @@ namespace Memory.Logic
             _visualSettings = Resources.Load<VisualSettings>(path: Paths.VisualSettingsPath);
             _gameplaySettings = Resources.Load<GameplaySettings>(path: Paths.GameplaySettingsPath);
 
-            _grid.InitGrid(rowsColumns: _gameplaySettings.GridRowsColumns);
             SetLevelDuration(value: _gameplaySettings.LevelDuration);
             SetCardPairsCount(value: _gameplaySettings.MemoryPairs);
             SetMatchedPairs(value: 0);
+            _grid.InitGrid(rowsColumns: _gameplaySettings.GridRowsColumns);
         }
 
         public static async void Start()
