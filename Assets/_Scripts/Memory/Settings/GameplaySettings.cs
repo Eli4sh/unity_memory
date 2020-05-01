@@ -15,5 +15,8 @@ namespace Memory.Settings
 
         [Tooltip(tooltip: "Number of Rows/Columns in card grid")]
         public Vector2Int GridRowsColumns;
+
+        [Tooltip("Card flip duration in seconds")]
+        public float CardFlipDuration;
     }
 }

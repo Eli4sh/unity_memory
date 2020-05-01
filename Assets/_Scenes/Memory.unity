@@ -351,8 +351,6 @@ MonoBehaviour:
   gridSize: {x: 25, y: 32}
   gridOffset: {x: -7.4925, y: -10.575}
   _frameSprite: {fileID: 21300000, guid: 5f6872da585ce4722a501399224837f2, type: 3}
-  _slotPrefab: {fileID: 2394294036214789089, guid: 81860fd4471414737a7523928c2e4ed9,
-    type: 3}
 --- !u!1 &993648037
 GameObject:
   m_ObjectHideFlags: 0
