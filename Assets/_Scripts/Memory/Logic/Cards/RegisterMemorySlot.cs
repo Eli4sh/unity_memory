@@ -1,0 +1,1 @@
+using Memory.Structs;namespace Memory.Logic{    public static partial class Game    {        public static void RegisterMemorySlot(SlotDetails details)        {            SetCardSlotPosition(details.Index, details.Position);            SetCardSlotScale(details.Index, details.Scale);        }    }}

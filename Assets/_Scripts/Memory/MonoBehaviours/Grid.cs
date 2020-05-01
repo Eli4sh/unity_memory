@@ -7,7 +7,6 @@ namespace Memory.MonoBehaviours
 {
     public class Grid : MonoBehaviour
     {
-        //grid specifics
         [SerializeField]
         private int rows;
 
@@ -23,12 +22,6 @@ namespace Memory.MonoBehaviours
         private Vector2 cellSize;
         private Vector2 cellScale;
         public Sprite _frameSprite;
-
-        [SerializeField]
-        private GameObject _slotPrefab;
-
-        [SerializeField]
-        private Dictionary<GameObject, bool> _slotOccupiedDictionary = new Dictionary<GameObject, bool>();
 
         void Awake()
         {
@@ -55,6 +48,7 @@ namespace Memory.MonoBehaviours
             gridOffset.x = -(gridSize.x / 2) + cellSize.x / 2;
             gridOffset.y = -(gridSize.y / 2) + cellSize.y / 2;
 
+            int index = 0;
             for (int row = 0; row < rows; row++)
             {
                 for (int col = 0; col < cols; col++)
@@ -62,20 +56,12 @@ namespace Memory.MonoBehaviours
                     Vector2 pos = new Vector2(col * cellSize.x + gridOffset.x + transform.position.x,
                         row * cellSize.y + gridOffset.y + transform.position
                                                                    .y);
-
-                    GameObject tempSlot = Instantiate((_slotPrefab), pos, Quaternion.identity);
-                    tempSlot.transform.localScale = new Vector2(cellScale.x, cellScale.y);
-                    tempSlot.transform.parent = transform;
-                    _slotOccupiedDictionary.Add(tempSlot, false);
+                    Logic.Game.RegisterMemorySlot(new SlotDetails(index, pos, cellScale));
+                    index++;
                 }
             }
-        }
 
-        public SlotDetails GetSlotDetails()
-        {
-            var freeSlot = _slotOccupiedDictionary.First((kvp) => kvp.Value == false).Key;
-            _slotOccupiedDictionary[freeSlot] = true;
-            return new SlotDetails(freeSlot.transform.position, freeSlot.transform.localScale);
+            Logic.Game.OnGridInitialized();
         }
     }
 }

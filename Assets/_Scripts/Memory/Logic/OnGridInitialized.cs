@@ -1,0 +1,1 @@
+using UnityEngine.Assertions;namespace Memory.Logic{    public static partial class Game    {        public static void OnGridInitialized()        {            int pairCount = GetCardPairsCount();            Assert.AreNotEqual(-1, pairCount);            CreateCards(pairCount);        }    }}

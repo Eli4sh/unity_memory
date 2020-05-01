@@ -1,1 +1,1 @@
-namespace Memory.Logic{    public static partial class Game    {        public static void SetCardIndex(int instanceId, int index)        {            Core.Database.SetDatabaseInt(key: Database.DatabaseKeys.CardIndexDatabaseKey(instanceId), index);        }    }}
+namespace Memory.Logic{    public static partial class Game    {        public static void SetCardPairIndex(int instanceId, int index)        {            Core.Database.SetDatabaseInt(key: Database.DatabaseKeys.CardPairIndexDatabaseKey(instanceId), index);        }    }}

@@ -1,1 +1,1 @@
-namespace Memory.Logic{    public static partial class Game    {        public static int GetCardIndex(int instanceId)        {            return Core.Database.GetDatabaseInt(key: Database.DatabaseKeys.CardIndexDatabaseKey(instanceId)) ?? -1;        }    }}
+namespace Memory.Logic{    public static partial class Game    {        public static int GetCardIndex(int instanceId)        {            return Core.Database.GetDatabaseInt(key: Database.DatabaseKeys.CardPairIndexDatabaseKey(instanceId)) ?? -1;        }    }}

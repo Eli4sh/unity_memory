@@ -24,16 +24,12 @@ namespace Memory.Logic
             _gameplaySettings = Resources.Load<GameplaySettings>(path: Paths.GameplaySettingsPath);
 
             _grid.InitGrid(_gameplaySettings.GridRowsColumns);
-            ;
             SetLevelDuration(_gameplaySettings.LevelDuration);
             SetCardPairsCount(_gameplaySettings.MemoryPairs);
         }
 
         public static void Start()
         {
-            int pairCount = GetCardPairsCount();
-            Assert.AreNotEqual(pairCount, -1);
-            CreateCards(pairCount);
         }
 
         public static void Update()

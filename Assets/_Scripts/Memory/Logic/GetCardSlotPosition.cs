@@ -1,0 +1,1 @@
+using UnityEngine;namespace Memory.Logic{    public static partial class Game     {        public static Vector3 GetCardSlotPosition(int index)        {            return Core.Database.GetDatabaseVector3(Database.DatabaseKeys.CardSlotPositionDatabaseKey(index)) ?? Vector3.zero;        }    }}
