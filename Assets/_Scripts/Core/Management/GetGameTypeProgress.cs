@@ -1,0 +1,1 @@
+namespace Core.Management{    public static partial class Main    {        public static int GetGameTypeProgress(GameType type)        {            return Database.GetDatabaseInt(DatabaseKeys.GameTypeProgressDatabaseKey(type.ToString())) ?? 1;        }    }}

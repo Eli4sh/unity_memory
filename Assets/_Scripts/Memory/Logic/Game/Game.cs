@@ -10,8 +10,6 @@ namespace Memory.Logic
 {
     public static partial class Game
     {
-        //TODO: MANAGE PUBLIC/PRIVATE ACCESS
-        //TODO: ACROSS GAME CLASS
         private static Factory _factory;
         private static Grid _grid;
         private static VisualSettings _visualSettings;
@@ -31,11 +29,11 @@ namespace Memory.Logic
             SetLevelDuration(value: _gameplaySettings.LevelDuration);
             SetCardPairsCount(value: _gameplaySettings.MemoryPairs);
             SetMatchedPairs(value: 0);
-            ProgressChanged(arg1: 0, arg2: GetCardPairsCount());
         }
 
         public static async void Start()
         {
+            ProgressChanged?.Invoke(arg1: 0, arg2: GetCardPairsCount());
             await Task.Delay(millisecondsDelay: 1000);
             HideAllCards?.Invoke();
             await Task.Delay(millisecondsDelay: 1000);
@@ -48,7 +46,7 @@ namespace Memory.Logic
         {
             if (GetGameStarted())
             {
-                TimeSpan timeLeft = GetGameStartedTime().AddSeconds(value: _gameplaySettings.LevelDuration).Subtract(value: DateTime.Now);
+                TimeSpan timeLeft = GetTimeLeft();
                 if (timeLeft.TotalSeconds >= 0)
                 {
                     TimeLeftChanged(obj: timeLeft);
@@ -56,6 +54,7 @@ namespace Memory.Logic
                 else
                 {
                     SetGameStarted(value: false);
+                    PrepareGameResult();
                     GameFinished?.Invoke();
                 }
             }

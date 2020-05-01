@@ -1,0 +1,1 @@
+using UnityEngine;namespace Core.Management{    public static partial class Main    {        [RuntimeInitializeOnLoadMethod]        private static void Run()        {            Debug.Log("APP STARTED");            Application.targetFrameRate = 45;        }    }}

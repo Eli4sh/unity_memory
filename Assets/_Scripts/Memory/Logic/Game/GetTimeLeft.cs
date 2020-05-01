@@ -1,0 +1,1 @@
+using System;namespace Memory.Logic{    public static partial class Game    {        public static TimeSpan GetTimeLeft()        {            return GetGameStartedTime().AddSeconds(value: _gameplaySettings.LevelDuration).Subtract(value: DateTime.Now);        }    }}

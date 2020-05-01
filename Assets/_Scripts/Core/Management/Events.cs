@@ -1,0 +1,1 @@
+using System;using Memory.Structs;namespace Core.Management{    public static partial class Main    {        public static event Action<MemoryGameResult> MemoryResultFound;    }}

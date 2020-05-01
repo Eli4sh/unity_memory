@@ -1,0 +1,1 @@
+namespace Memory.Structs{    public struct MemoryGameResult    {        public int Level;        public int SecondsLeft;        public float PercentComplete;        public MemoryGameResult(int level, int seconds, float percentage)        {            Level = level;            SecondsLeft = seconds;            PercentComplete = percentage;        }    }}

@@ -1,0 +1,1 @@
+namespace Core.Management{    public static partial class Main    {        public static void SetGameTypeProgress(GameType type, int value)        {            Database.SetDatabaseInt(DatabaseKeys.GameTypeProgressDatabaseKey(type.ToString()), value);        }    }}
