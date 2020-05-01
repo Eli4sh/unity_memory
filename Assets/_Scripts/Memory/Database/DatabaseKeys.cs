@@ -14,6 +14,9 @@ namespace Memory.Database
         public const string CardPairsDatabaseKey = "card_pairs_count";
 
         [NotNull]
+        public const string CurrentlySelectedPairDatabaseKey = "currently_selected_pair";
+
+        [NotNull]
         public static string CardPairIndexDatabaseKey(int instanceId) => $"card_index_{instanceId}";
 
         [NotNull]

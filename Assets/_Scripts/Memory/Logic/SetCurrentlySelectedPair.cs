@@ -1,0 +1,1 @@
+namespace Memory.Logic{    public static partial class Game    {        public static void SetCurrentlySelectedPair(int value)        {            Core.Database.SetDatabaseInt(Database.DatabaseKeys.CurrentlySelectedPairDatabaseKey, value);        }    }}

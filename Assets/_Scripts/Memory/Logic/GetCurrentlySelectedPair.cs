@@ -1,0 +1,1 @@
+namespace Memory.Logic{    public static partial class Game    {        public static int GetCurrentlySelectedPair()        {            return Core.Database.GetDatabaseInt(Database.DatabaseKeys.CurrentlySelectedPairDatabaseKey) ?? -1;        }    }}
