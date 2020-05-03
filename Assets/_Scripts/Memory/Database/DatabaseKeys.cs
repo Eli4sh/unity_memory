@@ -5,6 +5,9 @@ namespace Memory.Database
     public static class DatabaseKeys
     {
         [NotNull]
+        public const string GridSizeDatabaseKey = "memory_grid_size";
+
+        [NotNull]
         public const string GameStartedDatabaseKey = "game_started";
 
         [NotNull]

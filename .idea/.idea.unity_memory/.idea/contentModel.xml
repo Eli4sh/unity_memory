@@ -23,6 +23,9 @@
               <e p="SetDatabaseString.cs" t="Include" />
               <e p="SetDatabaseVector3.cs" t="Include" />
             </e>
+            <e p="Enums" t="Include">
+              <e p="PresentationType.cs" t="Include" />
+            </e>
             <e p="Management" t="Include">
               <e p="DatabaseKeys.cs" t="Include" />
               <e p="Events.cs" t="Include" />
@@ -46,12 +49,16 @@
             <e p="Database" t="Include">
               <e p="DatabaseKeys.cs" t="Include" />
             </e>
+            <e p="Enums" t="Include">
+              <e p="GridSize.cs" t="Include" />
+            </e>
             <e p="GamePaths" t="Include">
               <e p="Paths.cs" t="Include" />
             </e>
             <e p="Logic" t="Include">
               <e p="Cards" t="Include">
                 <e p="CreateCards.cs" t="Include" />
+                <e p="OnCardReset.cs" t="Include" />
                 <e p="OnCardSelected.cs" t="Include" />
                 <e p="RegisterMemorySlot.cs" t="Include" />
               </e>
@@ -65,16 +72,20 @@
                 <e p="GetCurrentlySelectedPair.cs" t="Include" />
                 <e p="GetGameStarted.cs" t="Include" />
                 <e p="GetGameStartedTime.cs" t="Include" />
+                <e p="GetGridSize.cs" t="Include" />
                 <e p="GetLevelDuration.cs" t="Include" />
                 <e p="GetMatchedPairs.cs" t="Include" />
                 <e p="GetTimeLeft.cs" t="Include" />
+                <e p="OnCardSelectFlipStarted.cs" t="Include" />
                 <e p="OnGridInitialized.cs" t="Include" />
+                <e p="OnGridSizeChosen.cs" t="Include" />
                 <e p="SetCardPairsCount.cs" t="Include" />
                 <e p="SetCardSlotPosition.cs" t="Include" />
                 <e p="SetCardSlotScale.cs" t="Include" />
                 <e p="SetCurrentlySelectedPair.cs" t="Include" />
                 <e p="SetGameStarted.cs" t="Include" />
                 <e p="SetGameStartedTime.cs" t="Include" />
+                <e p="SetGridSize.cs" t="Include" />
                 <e p="SetLevelDuration.cs" t="Include" />
                 <e p="SetMatchedPairs.cs" t="Include" />
               </e>
@@ -135,6 +146,8 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="UI_SelectSizePanel.cs" t="Include" />
+        <e p="UI_SizeToggle.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

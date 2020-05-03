@@ -1,0 +1,1 @@
+using System;using Memory.Enums;namespace Memory.Logic{    public static partial class Game    {        private static GridSize GetGridSize()        {            GridSize size = GridSize.SMALL;            Enum.TryParse(Core.Database.GetDatabaseString(Memory.Database.DatabaseKeys.GridSizeDatabaseKey), out size);            return size;        }    }}

@@ -1,0 +1,1 @@
+namespace Memory.Enums{    public enum GridSize    {        SMALL,        MEDIUM,        LARGE,        BIGGEST    }}

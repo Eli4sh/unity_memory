@@ -1,0 +1,1 @@
+using Memory.Enums;namespace Memory.Logic{    public static partial class Game    {        private static void SetGridSize(GridSize size)        {            Core.Database.SetDatabaseString(Database.DatabaseKeys.GridSizeDatabaseKey, size.ToString());        }    }}

@@ -1,0 +1,1 @@
+namespace Core.Enums{    public enum PresentationType    {        LANDSCAPE,        PORTRAIT    }}

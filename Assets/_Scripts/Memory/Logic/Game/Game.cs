@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Core;
+using Memory.Enums;
 using Memory.GamePaths;
 using Memory.Settings;
 using UnityEngine;
@@ -23,16 +24,16 @@ namespace Memory.Logic
             _grid = grid;
 
             _visualSettings = Resources.Load<VisualSettings>(path: Paths.VisualSettingsPath);
-            _gameplaySettings = Resources.Load<GameplaySettings>(path: Paths.GameplaySettingsPath);
+            _gameplaySettings = Resources.Load<GameplaySettings>(path: Paths.GameplaySettingsPath(GetGridSize()));
 
             SetLevelDuration(value: _gameplaySettings.LevelDuration);
             SetCardPairsCount(value: _gameplaySettings.MemoryPairs);
             SetMatchedPairs(value: 0);
-            _grid.InitGrid(rowsColumns: _gameplaySettings.GridRowsColumns);
         }
 
         public static async void Start()
         {
+            _grid.InitGrid(rowsColumns: _gameplaySettings.GridRowsColumns);
             SetGameStartedTime(value: DateTime.Now);
             TimeLeftChanged?.Invoke(obj: GetTimeLeft());
             ProgressChanged?.Invoke(arg1: 0, arg2: GetCardPairsCount());
@@ -59,6 +60,26 @@ namespace Memory.Logic
                     PrepareGameResult();
                     GameFinished?.Invoke();
                 }
+            }
+        }
+
+        private static void ChooseGameplaySettings()
+        {
+            GridSize size = GetGridSize();
+            switch (size)
+            {
+                case GridSize.SMALL:
+                    
+                    break;
+                case GridSize.MEDIUM:
+                    
+                    break;
+                case GridSize.LARGE:
+                    
+                    break;
+                case GridSize.BIGGEST:
+                    
+                    break;
             }
         }
     }

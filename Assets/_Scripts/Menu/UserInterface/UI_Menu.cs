@@ -12,10 +12,14 @@ namespace Menu.UserInterface
         private UI_LastGameResult _lastGameResult;
 
         [SerializeField]
+        private UI_SelectSizePanel _selectSizePanel;
+
+        [SerializeField]
         private Button _playButton;
 
         private void Awake()
         {
+            _selectSizePanel.SizeSelected += OnMemoryGridSizeSelected;
             _playButton.onClick.AddListener(call: OnPlayButtonClicked);
         }
 
@@ -26,14 +30,16 @@ namespace Menu.UserInterface
 
         private void OnEnable()
         {
-            Main.MemoryResultFound += OnMemoryResultFound;
         }
 
         private void OnDisable()
         {
-            Main.MemoryResultFound -= OnMemoryResultFound;
         }
 
+        private void OnMemoryGridSizeSelected(Memory.Enums.GridSize size)
+        {
+            Memory.Logic.Game.OnGridSizeChosen(size);
+        }
         private void OnMemoryResultFound(MemoryGameResult result)
         {
             _lastGameResult.SetResult(result: result);
