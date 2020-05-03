@@ -16,7 +16,7 @@ namespace Memory.Logic
         private static VisualSettings _visualSettings;
         private static GameplaySettings _gameplaySettings;
 
-        public static void Awake(Factory factory, Grid grid)
+        public static void Init(Factory factory, Grid grid)
         {
             SetGameStarted(value: false);
 

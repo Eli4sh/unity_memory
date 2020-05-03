@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardFlipDuration: 0
   GridRowsColumns: {x: 3, y: 4}
-  LevelDuration: 30
+  LevelDuration: 45
   MemoryPairs: 6
