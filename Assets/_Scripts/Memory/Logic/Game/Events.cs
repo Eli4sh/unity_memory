@@ -1,11 +1,12 @@
 using System;
+using Memory.Enums;
 
 namespace Memory.Logic
 {
     public static partial class Game
     {
         public static event Action GameStarted;
-        public static event Action GameFinished;
+        public static event Action<CompletenessType> GameFinished;
         public static event Action<int> CardSelected;
         public static event Action CardSelectionEnabled;
         public static event Action CardSelectionDisabled;

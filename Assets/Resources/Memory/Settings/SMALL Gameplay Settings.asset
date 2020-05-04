@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643f3e52eb18e4d3ba7dac231c5d9ec3, type: 3}
   m_Name: SMALL Gameplay Settings
   m_EditorClassIdentifier: 
-  CardFlipDuration: 0
+  CardFlipDuration: 0.25
   GridRowsColumns: {x: 2, y: 2}
   LevelDuration: 30
   MemoryPairs: 2

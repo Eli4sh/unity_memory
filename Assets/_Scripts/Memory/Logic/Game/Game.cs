@@ -58,7 +58,7 @@ namespace Memory.Logic
                 {
                     SetGameStarted(value: false);
                     PrepareGameResult();
-                    GameFinished?.Invoke();
+                    GameFinished?.Invoke(CompletenessType.LOST);
                 }
             }
         }

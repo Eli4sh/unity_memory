@@ -1,1 +1,1 @@
-namespace Memory.Logic{    public class OnReplay    {            }}
+using UnityEngine.SceneManagement;namespace Memory.Logic{    public static partial class Game    {        public static void OnReplay()        {            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);        }    }}

@@ -24,6 +24,7 @@
               <e p="SetDatabaseVector3.cs" t="Include" />
             </e>
             <e p="Enums" t="Include">
+              <e p="AudioType.cs" t="Include" />
               <e p="PresentationType.cs" t="Include" />
             </e>
             <e p="Management" t="Include">
@@ -39,9 +40,13 @@
               </e>
               <e p="SetGameTypeProgress.cs" t="Include" />
             </e>
-            <e p="Utilities" t="Include">
-              <e p="CameraSizeAspectRatioFitter.cs" t="Include" />
+            <e p="MonoBehaviours" t="Include">
+              <e p="AudioBootstrap.cs" t="Include" />
               <e p="Factory.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="Audio.cs" t="Include" />
+              <e p="CameraSizeAspectRatioFitter.cs" t="Include" />
               <e p="GetRandomNumberInRange.cs" t="Include" />
             </e>
           </e>
@@ -50,6 +55,7 @@
               <e p="DatabaseKeys.cs" t="Include" />
             </e>
             <e p="Enums" t="Include">
+              <e p="CompletenessType.cs" t="Include" />
               <e p="GridSize.cs" t="Include" />
             </e>
             <e p="GamePaths" t="Include">
@@ -76,9 +82,12 @@
                 <e p="GetLevelDuration.cs" t="Include" />
                 <e p="GetMatchedPairs.cs" t="Include" />
                 <e p="GetTimeLeft.cs" t="Include" />
+                <e p="MeasureCompleteness.cs" t="Include" />
+                <e p="OnBackToMenu.cs" t="Include" />
                 <e p="OnCardSelectFlipStarted.cs" t="Include" />
                 <e p="OnGridInitialized.cs" t="Include" />
                 <e p="OnGridSizeChosen.cs" t="Include" />
+                <e p="OnReplay.cs" t="Include" />
                 <e p="SetCardPairsCount.cs" t="Include" />
                 <e p="SetCardSlotPosition.cs" t="Include" />
                 <e p="SetCardSlotScale.cs" t="Include" />
@@ -107,6 +116,7 @@
               <e p="SlotDetails.cs" t="Include" />
             </e>
             <e p="UserInterface" t="Include">
+              <e p="UI_EndGamePopup.cs" t="Include" />
               <e p="UI_TopBar.cs" t="Include" />
               <e p="UserInterface.cs" t="Include" />
             </e>
@@ -115,6 +125,8 @@
             <e p="UserInterface" t="Include">
               <e p="UI_LastGameResult.cs" t="Include" />
               <e p="UI_Menu.cs" t="Include" />
+              <e p="UI_SelectSizePanel.cs" t="Include" />
+              <e p="UI_SizeToggle.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -146,8 +158,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="UI_SelectSizePanel.cs" t="Include" />
-        <e p="UI_SizeToggle.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

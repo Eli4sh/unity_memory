@@ -1,1 +1,1 @@
-$HEADER$namespace $NAMESPACE${  public class $CLASS$ {$END$}}
+namespace Memory.Enums{    public enum CompletenessType    {        LOST,        OK,        GOOD,        PERFECT    }}

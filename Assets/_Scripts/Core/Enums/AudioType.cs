@@ -1,1 +1,1 @@
-$HEADER$namespace $NAMESPACE${  public enum $ENUM$ {$END$}}
+namespace Core.Enums{    public enum AudioType    {        BACKGROUND,        BUTTON_UI,        CARD_CLICK,        APPLAUSE    }}

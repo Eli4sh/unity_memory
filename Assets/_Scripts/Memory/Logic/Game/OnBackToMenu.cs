@@ -1,1 +1,1 @@
-$HEADER$namespace $NAMESPACE${  public class $CLASS$ {$END$}}
+namespace Memory.Logic{    public static partial class Game    {        public static void OnBackToMenu()        {            UnityEngine.SceneManagement.SceneManager.LoadScene(0);        }    }}

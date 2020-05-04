@@ -28,18 +28,12 @@ namespace Menu.UserInterface
             Main.GetLastGameResult();
         }
 
-        private void OnEnable()
-        {
-        }
-
-        private void OnDisable()
-        {
-        }
-
         private void OnMemoryGridSizeSelected(Memory.Enums.GridSize size)
         {
             Memory.Logic.Game.OnGridSizeChosen(size);
+            Core.Audio.PlaySound(Core.Enums.AudioType.BUTTON_UI);
         }
+
         private void OnMemoryResultFound(MemoryGameResult result)
         {
             _lastGameResult.SetResult(result: result);
@@ -48,6 +42,7 @@ namespace Menu.UserInterface
         private void OnPlayButtonClicked()
         {
             SceneManager.LoadScene(sceneBuildIndex: 1);
+            Core.Audio.PlaySound(Core.Enums.AudioType.BUTTON_UI);
         }
     }
 }
