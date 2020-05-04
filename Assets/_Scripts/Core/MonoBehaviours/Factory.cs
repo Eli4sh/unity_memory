@@ -5,11 +5,17 @@ namespace Core
     public class Factory : MonoBehaviour
     {
         public GameObject CreateGameObjectFromResources(
-            string path)
+            string path,
+            bool parentFactory = false)
         {
             return Instantiate(
                 original: Resources.Load<GameObject>(path: path),
-                parent: transform);
+                parent: parentFactory ? transform : null);
+        }
+
+        private void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
         }
     }
 }
