@@ -12,7 +12,7 @@ public class AudioBootstrap : MonoBehaviour
         if (_initialized == false)
         {
             Audio.InitAudio(FindObjectOfType<Factory>());
-            Audio.PlaySound(Core.Enums.AudioType.BACKGROUND);
+            Audio.PlaySound(Core.Enums.AudioType.BACKGROUND, true);
             _initialized = true;
         }
         else

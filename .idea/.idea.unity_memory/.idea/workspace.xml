@@ -24,38 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d15bd412-d2bb-46d6-9aef-54bbb345b5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/Enums/AudioType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/Enums/AudioType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviours.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Enums/CompletenessType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Enums/CompletenessType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/MeasureCompleteness.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/MeasureCompleteness.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/OnBackToMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/OnBackToMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/OnReplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/OnReplay.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity_memory/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity_memory/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Audio/click.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.unity_memory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity_memory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/BIGGEST Gameplay Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/BIGGEST Gameplay Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/LARGE Gameplay Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/LARGE Gameplay Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/MEDIUM Gameplay Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/MEDIUM Gameplay Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/SMALL Gameplay Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Memory/Settings/SMALL Gameplay Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Memory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Memory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Audio/Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/card.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Audio/card.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/card.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Audio/card.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/star_get.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/star_get.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Audio/click.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Audio/AudioObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Audio/AudioObject.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Core/Utilities/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviours/Factory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Core/Utilities/Factory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviours/Factory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/CreateCards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Cards/CreateCards.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/CheckWinCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/CheckWinCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Events.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Events.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Game/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Result/PrepareGameResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/Logic/Result/PrepareGameResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/MemoryCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/MonoBehaviours/MemoryCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UI_TopBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UI_TopBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Memory/UserInterface/UserInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Menu/UserInterface/UI_Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Menu/UserInterface/UI_Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviours/AudioBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviours/AudioBootstrap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/SetGameTypeProgress.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Memory/Structs/MemoryGameResult.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/GetLastGameResult.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Management/DatabaseKeys.cs" />
@@ -198,6 +176,7 @@
         <option value="$PROJECT_DIR$/Assets/Audio.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Core/Utilities/Audio.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Core/MonoBehaviours/AudioBootstrap.cs" />
       </list>
     </option>
   </component>
@@ -260,6 +239,7 @@
       <workItem from="1588500714988" duration="3949000" />
       <workItem from="1588607583649" duration="7438000" />
       <workItem from="1588622094254" duration="76000" />
+      <workItem from="1588622784355" duration="20000" />
     </task>
     <servers />
   </component>
