@@ -1,1 +1,1 @@
-$HEADER$namespace $NAMESPACE${  public class $CLASS$ {$END$}}
+using UnityEngine;namespace Memory.Logic{    public static partial class Game    {        private static Vector2Int GetPreviouslySelectedCards()        {            return Core.Database.GetDatabaseVector2Int(Database.DatabaseKeys.PreviouslySerlectedPairDatabaseKey);        }    }}

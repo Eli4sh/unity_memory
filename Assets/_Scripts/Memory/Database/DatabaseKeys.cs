@@ -26,6 +26,9 @@ namespace Memory.Database
         public const string GameStartedTimeDatabaseKey = "game_started_time";
 
         [NotNull]
+        public const string PreviouslySerlectedPairDatabaseKey = "previous_pair";
+        
+        [NotNull]
         public static string CardSlotPositionDatabaseKey(int index)
         {
             return $"card_slot_{index}_position";

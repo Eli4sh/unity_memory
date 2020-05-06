@@ -18,12 +18,14 @@ namespace Core
         private const string CardClickPath = "Audio/card";
         private const string ApplausePath = "Audio/applause";
 
-        private static List<AudioSource> FreeAudioSourceList = new List<AudioSource>();
-        private static List<AudioSource> PlayingSourceList = new List<AudioSource>();
+        private static List<AudioSource> FreeAudioSourceList;
+        private static List<AudioSource> PlayingSourceList;
 
         public static void InitAudio(Factory factory)
         {
             _factory = factory;
+            FreeAudioSourceList = new List<AudioSource>();
+            PlayingSourceList = new List<AudioSource>();
         }
 
         public static void PlaySound(

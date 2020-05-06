@@ -1,1 +1,1 @@
-$HEADER$namespace $NAMESPACE${  public class $CLASS$ {$END$}}
+using JetBrains.Annotations;using UnityEngine;namespace Core{    public static partial class Database    {        public static void SetDatabaseVector2Int([NotNull] string key, Vector2Int value)        {            PlayerPrefs.SetInt($"{key}_x", value.x);            PlayerPrefs.SetInt($"{key}_y", value.y);        }    }}

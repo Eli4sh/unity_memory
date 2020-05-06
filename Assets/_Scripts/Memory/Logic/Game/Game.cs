@@ -19,6 +19,8 @@ namespace Memory.Logic
         public static void Init(Factory factory, Grid grid)
         {
             SetGameStarted(value: false);
+            SetPrevioslySelectedCards(new Vector2Int(-1, -1));
+            SetCurrentlySelectedPair(-1);
 
             _factory = factory;
             _grid = grid;
@@ -37,9 +39,6 @@ namespace Memory.Logic
             SetGameStartedTime(value: DateTime.Now);
             TimeLeftChanged?.Invoke(obj: GetTimeLeft());
             ProgressChanged?.Invoke(arg1: 0, arg2: GetCardPairsCount());
-            await Task.Delay(millisecondsDelay: 1000);
-            HideAllCards?.Invoke();
-            await Task.Delay(millisecondsDelay: 1000);
             GameStarted?.Invoke();
             SetGameStartedTime(value: DateTime.Now);
             SetGameStarted(value: true);
@@ -69,16 +68,16 @@ namespace Memory.Logic
             switch (size)
             {
                 case GridSize.SMALL:
-                    
+
                     break;
                 case GridSize.MEDIUM:
-                    
+
                     break;
                 case GridSize.LARGE:
-                    
+
                     break;
                 case GridSize.BIGGEST:
-                    
+
                     break;
             }
         }
