@@ -12,7 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643f3e52eb18e4d3ba7dac231c5d9ec3, type: 3}
   m_Name: BIGGEST Gameplay Settings
   m_EditorClassIdentifier: 
-  CardFlipDuration: 0.25
   GridRowsColumns: {x: 4, y: 5}
   LevelDuration: 120
-  MemoryPairs: 10
+  CarPairs:
+  - Sprite: {fileID: 21300000, guid: f8731e39ea383479d9b50b3747627e60, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 020a76061f210406dae26bb6b1e0a449, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: 6835e1f84449648e7bd3d40cfdd5b1f1, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 039dcca3ea9384e1fab58d2bb244a561, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: 17209fbf7061e4a4f8176ceb7beab535, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 2319e250bd77446e5b5ae3964dd0a198, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: 01c0d9a95b6264a33802057cb1ef2760, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: 6800a432a3a6a495aa1d774d23716331, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 7e75d2d8ed1f547ba8a2a66b4e22717f, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: b45d0f5cd3c0c4ee8a430fcbe3ee6f88, type: 3}
+    Voiceover: {fileID: 0}

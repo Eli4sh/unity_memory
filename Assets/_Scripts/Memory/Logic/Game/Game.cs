@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Core;
+using Core.MonoBehaviours;
 using Memory.Enums;
 using Memory.GamePaths;
 using Memory.Settings;
@@ -29,11 +30,11 @@ namespace Memory.Logic
             _gameplaySettings = Resources.Load<GameplaySettings>(path: Paths.GameplaySettingsPath(GetGridSize()));
 
             SetLevelDuration(value: _gameplaySettings.LevelDuration);
-            SetCardPairsCount(value: _gameplaySettings.MemoryPairs);
+            SetCardPairsCount(value: _gameplaySettings.CarPairs.Count);
             SetMatchedPairs(value: 0);
         }
 
-        public static async void Start()
+        public static void Start()
         {
             _grid.InitGrid(rowsColumns: _gameplaySettings.GridRowsColumns);
             SetGameStartedTime(value: DateTime.Now);

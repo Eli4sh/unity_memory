@@ -12,7 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643f3e52eb18e4d3ba7dac231c5d9ec3, type: 3}
   m_Name: MEDIUM Gameplay Settings
   m_EditorClassIdentifier: 
-  CardFlipDuration: 0.25
   GridRowsColumns: {x: 3, y: 4}
   LevelDuration: 45
-  MemoryPairs: 6
+  CarPairs:
+  - Sprite: {fileID: 21300000, guid: 42a31f14cc69a4e24b9391c654a3e6f9, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 020a76061f210406dae26bb6b1e0a449, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: 2319e250bd77446e5b5ae3964dd0a198, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 01c0d9a95b6264a33802057cb1ef2760, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: 17209fbf7061e4a4f8176ceb7beab535, type: 3}
+    Voiceover: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: ca0d78bfac1a24072b4328c411a11aa6, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}

@@ -3,21 +3,29 @@ using System.Collections.Generic;
 using Core;
 using UnityEngine;
 
-public class AudioBootstrap : MonoBehaviour
+namespace Core.MonoBehaviours
 {
-    private static bool _initialized = false;
-
-    private void Awake()
+    public class AudioBootstrap : MonoBehaviour
     {
-        if (_initialized == false)
+        private static bool _initialized = false;
+
+        private void Awake()
         {
-            Audio.InitAudio(FindObjectOfType<Factory>());
-            Audio.PlaySound(Core.Enums.AudioType.BACKGROUND, true);
-            _initialized = true;
+            if (_initialized == false)
+            {
+                Audio.InitAudio(FindObjectOfType<Factory>());
+                Audio.PlaySound(Core.Enums.AudioType.BACKGROUND, true);
+                _initialized = true;
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
         }
-        else
+
+        public static void ResetInit()
         {
-            gameObject.SetActive(false);
+            _initialized = false;
         }
     }
 }

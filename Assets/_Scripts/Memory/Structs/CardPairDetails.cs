@@ -1,0 +1,1 @@
+using UnityEngine;namespace Memory.Structs{    [System.Serializable]    public struct CardPairDetails    {        public Sprite Sprite;        public AudioClip Voiceover;    }}

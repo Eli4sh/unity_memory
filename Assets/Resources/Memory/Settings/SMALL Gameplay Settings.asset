@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643f3e52eb18e4d3ba7dac231c5d9ec3, type: 3}
   m_Name: SMALL Gameplay Settings
   m_EditorClassIdentifier: 
-  CardFlipDuration: 0.25
   GridRowsColumns: {x: 2, y: 2}
   LevelDuration: 30
-  MemoryPairs: 2
+  CarPairs:
+  - Sprite: {fileID: 21300000, guid: 01c0d9a95b6264a33802057cb1ef2760, type: 3}
+    Voiceover: {fileID: 8300000, guid: bc86b4de5d6394bc39017ac48aa74621, type: 3}
+  - Sprite: {fileID: 21300000, guid: f8731e39ea383479d9b50b3747627e60, type: 3}
+    Voiceover: {fileID: 0}

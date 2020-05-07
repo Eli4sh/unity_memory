@@ -1,51 +1,47 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Core.MonoBehaviours;
 using UnityEngine;
 using UnityEngine.Audio;
 using AudioType = Core.Enums.AudioType;
+using DG.Tweening;
 
 namespace Core
 {
     public static class Audio
     {
         private static Factory _factory;
-        private static readonly string AudioObjectPath = "Prefabs/Audio/AudioObject";
+        private static readonly string _audioObjectPath = "Prefabs/Audio/AudioObject";
 
-        private const string BackgroundClipPath =
+        private const string _backgroundClipPath =
             "Audio/background";
 
         private const string ButtonUIPath = "Audio/bloop";
         private const string CardClickPath = "Audio/card";
         private const string ApplausePath = "Audio/applause";
 
-        private static List<AudioSource> FreeAudioSourceList;
-        private static List<AudioSource> PlayingSourceList;
+        private static List<AudioSource> _freeAudioSourceList;
+        private static List<AudioSource> _playingSourceList;
+        private static AudioSource _previousVoiceoverSource;
+
+        [RuntimeInitializeOnLoadMethod]
+        private static void ResetInit()
+        {
+            AudioBootstrap.ResetInit();
+        }
 
         public static void InitAudio(Factory factory)
         {
             _factory = factory;
-            FreeAudioSourceList = new List<AudioSource>();
-            PlayingSourceList = new List<AudioSource>();
+            _freeAudioSourceList = new List<AudioSource>();
+            _playingSourceList = new List<AudioSource>();
         }
 
         public static void PlaySound(
             AudioType audio,
             bool loop = false)
         {
-            AudioSource source;
-            if (FreeAudioSourceList.Count > 0)
-            {
-                source = FreeAudioSourceList[index: 0];
-                FreeAudioSourceList.Remove(item: source);
-            }
-            else
-            {
-                source = _factory
-                         .CreateGameObjectFromResources(path: AudioObjectPath, audio == AudioType.BACKGROUND)
-                         .GetComponent<AudioSource>();
-            }
-
-            PlayingSourceList.Add(item: source);
+            AudioSource source = GetAudioSource(audio == AudioType.BACKGROUND);
 
             if (audio == AudioType.BACKGROUND)
             {
@@ -74,40 +70,68 @@ namespace Core
             }
         }
 
-        private static async void StopAudio(
-            AudioSource source)
+        public static async Task FadeLastVoiceover()
         {
-            if (source == null)
+            if (_previousVoiceoverSource != null)
             {
-                return;
+                _playingSourceList.Remove(_previousVoiceoverSource);
+                _previousVoiceoverSource.DOFade(0, 0.2f).OnComplete(() =>
+                {
+                    _freeAudioSourceList.Add(_previousVoiceoverSource);
+                    _previousVoiceoverSource.volume = 1;
+                    _previousVoiceoverSource.clip = null;
+                    _previousVoiceoverSource = null;
+                });
+                await Task.Delay(201);
+            }
+        }
+
+        public static void PlayVoiceover(AudioClip clip)
+        {
+            AudioSource source = GetAudioSource(false);
+            _previousVoiceoverSource = source;
+            source.clip = clip;
+            source.Play();
+        }
+
+        private static async void StopAudio(
+            AudioSource source,
+            bool force = false)
+        {
+            if (force == false)
+            {
+                if (source == null)
+                {
+                    return;
+                }
+
+                if (source.clip == null)
+                {
+                    return;
+                }
+
+                await Task.Delay(millisecondsDelay: (int) (source.clip.length * 1000));
+
+                if (source == null)
+                {
+                    return;
+                }
+
+                if (source.clip == null)
+                {
+                    return;
+                }
             }
 
-            if (source.clip == null)
-            {
-                return;
-            }
-
-            await Task.Delay(millisecondsDelay: (int) (source.clip.length * 1000));
-
-            if (source == null)
-            {
-                return;
-            }
-
-            if (source.clip == null)
-            {
-                return;
-            }
-
-            if (PlayingSourceList.Contains(item: source) != true)
+            if (_playingSourceList.Contains(item: source) != true)
             {
                 return;
             }
 
             source.Stop();
             source.clip = null;
-            PlayingSourceList.Remove(item: source);
-            FreeAudioSourceList.Add(item: source);
+            _playingSourceList.Remove(item: source);
+            _freeAudioSourceList.Add(item: source);
         }
 
         private static AudioClip GetClipForAudioType(
@@ -116,7 +140,7 @@ namespace Core
             switch (type)
             {
                 case AudioType.BACKGROUND:
-                    return Resources.Load<AudioClip>(path: BackgroundClipPath);
+                    return Resources.Load<AudioClip>(path: _backgroundClipPath);
                 case AudioType.BUTTON_UI:
                     return Resources.Load<AudioClip>(path: ButtonUIPath);
                 case AudioType.CARD_CLICK:
@@ -126,6 +150,25 @@ namespace Core
                 default:
                     return Resources.Load<AudioClip>(path: ButtonUIPath);
             }
+        }
+
+        private static AudioSource GetAudioSource(bool canParentFactory)
+        {
+            AudioSource source;
+            if (_freeAudioSourceList.Count > 0)
+            {
+                source = _freeAudioSourceList[index: 0];
+                _freeAudioSourceList.Remove(item: source);
+            }
+            else
+            {
+                source = _factory
+                         .CreateGameObjectFromResources(path: _audioObjectPath, canParentFactory)
+                         .GetComponent<AudioSource>();
+            }
+
+            _playingSourceList.Add(item: source);
+            return source;
         }
     }
 }
